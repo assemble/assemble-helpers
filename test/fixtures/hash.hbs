@@ -1,0 +1,5 @@
+{{#pages}}
+  {{#each (sortItems items order="baz,bar") as |item|}}
+{{item.stem}}
+  {{/each}}
+{{/pages}}

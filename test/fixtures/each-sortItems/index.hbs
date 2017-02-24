@@ -1,0 +1,6 @@
+---
+order: ['bbb', 'ccc', 'aaa']
+---
+{{#each (sortItems (items "pages") order) as |item|}}
+{{item.basename}}
+{{/each}}

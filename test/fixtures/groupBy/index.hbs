@@ -1,0 +1,9 @@
+{{#groupBy "posts" "data.tags" filter="!index"}}
+<h1>Tags</h1>
+{{#each . as |tags|}}
+{{log tags}}
+<h2>{{!Tags}}</h2>
+{{#each tags as |tag|}}
+{{/each}}
+{{/each}}
+{{/groupBy}}

@@ -1,0 +1,84 @@
+{
+  "name": "assemble-helpers",
+  "description": "Plugin that adds helpers for assemble projects. Includes both sync and async helpers that take advantage of assemble's powerful features.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/assemble-helpers",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "assemble/assemble-helpers",
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-helpers/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "get-value": "^2.0.6",
+    "handlebars-helper-each": "^0.1.2",
+    "handlebars-utils": "^0.2.1",
+    "helper-link-to": "^0.2.0",
+    "helper-sort-items": "^0.1.0",
+    "isobject": "^3.0.0",
+    "match-file": "^0.2.2",
+    "relative-dest": "^0.1.0"
+  },
+  "devDependencies": {
+    "assemble": "^0.23.0",
+    "async-each-series": "^1.1.0",
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "assemble",
+    "boilerplate",
+    "build",
+    "cli",
+    "cli-app",
+    "command-line",
+    "create",
+    "dev",
+    "development",
+    "framework",
+    "front",
+    "frontend",
+    "helpers",
+    "plugin",
+    "project",
+    "projects",
+    "scaffold",
+    "scaffolder",
+    "scaffolding",
+    "template",
+    "templates",
+    "webapp",
+    "yeoman",
+    "yo"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "handlebars-helpers",
+        "template-helpers",
+        "helper-link-to"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
