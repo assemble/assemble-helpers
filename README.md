@@ -1,6 +1,6 @@
 # assemble-helpers [![NPM version](https://img.shields.io/npm/v/assemble-helpers.svg?style=flat)](https://www.npmjs.com/package/assemble-helpers) [![NPM monthly downloads](https://img.shields.io/npm/dm/assemble-helpers.svg?style=flat)](https://npmjs.org/package/assemble-helpers)  [![NPM total downloads](https://img.shields.io/npm/dt/assemble-helpers.svg?style=flat)](https://npmjs.org/package/assemble-helpers) [![Linux Build Status](https://img.shields.io/travis/assemble/assemble-helpers.svg?style=flat&label=Travis)](https://travis-ci.org/assemble/assemble-helpers)
 
-> Plugin that adds special sync and async helpers for use in assemble projects.
+> Plugin that adds helpers for assemble projects. Includes both sync and async helpers that take advantage of assemble's powerful features.
 
 ## Install
 
