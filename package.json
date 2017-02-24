@@ -1,7 +1,7 @@
 {
   "name": "assemble-helpers",
   "description": "Plugin that adds helpers for assemble projects. Includes both sync and async helpers that take advantage of assemble's powerful features.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/assemble/assemble-helpers",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "assemble/assemble-helpers",
